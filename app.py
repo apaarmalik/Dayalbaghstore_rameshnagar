@@ -5,7 +5,7 @@ import os
 
 # Title
 
-image_folder = r'G:\Malik clothing & accessories\pullover1'
+image_folder = r'G:\Malik clothing & accessories\pullover1.png'
 
 
 # Set the desired working directory
