@@ -12,8 +12,6 @@ st.success(f"Working directory changed to: {os.getcwd()}")
 st.write("hello")
 
 
-st.image('D:/sample.png', caption='Sunrise by the mountains')
-
 fle = st.file_uploader("Upload the file",accept_multiple_files=True)
 
 for f in fle:
