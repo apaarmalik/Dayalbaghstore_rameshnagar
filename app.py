@@ -5,10 +5,10 @@ import os
 
 # Title
 
-image_folder = r'G:\Malik clothing & accessories\pullover1.png'
 
 
 # Set the desired working directory
-st.image(image_folder,caption='hi')
+st.image(r"G\Malik clothing & accessories\pullover1.png", caption="Sample Image")
+
 
 
