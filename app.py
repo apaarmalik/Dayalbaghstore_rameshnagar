@@ -7,7 +7,8 @@ import glob
 # Title
 
 img_files=glob.glob("newsubfolder./*.png")
-st.write(len(img_files))
+for imgs in img_files:
+  st.image(imgs)
 
 
 
