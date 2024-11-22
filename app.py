@@ -4,7 +4,7 @@ from PIL import Image
 import os
 
 # Title
-st.image("sample.png", caption="Pullover Image")
+st.image("G:\pullover1.png")
 
 
 
