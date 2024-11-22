@@ -4,5 +4,5 @@ from PIL import Image
 
 st.write("hello")
 
-img = Image.open('sample.png')
+img = Image.open('D:/to/sample.png')
 st.image(img, caption='Sunrise by the mountains')
