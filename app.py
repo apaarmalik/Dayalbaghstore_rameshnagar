@@ -8,7 +8,7 @@ from pathlib import Path
 st.title("Display Images from a Local Folder")
 
 # Define the folder containing images
-image_folder = Path("G:\Malik clothing & accessories")
+image_folder = Path("G:/Malik clothing & accessories")
 
 # Check if folder exists
 if not image_folder.exists():
