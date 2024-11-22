@@ -6,7 +6,7 @@ import glob
 
 # Title
 
-img_files=glob.glob("G:/Malik clothing & accessories/*.jpg")
+img_files=glob.glob("newsubfolder./pullover1.png")
 st.write(len(img_files))
 
 
