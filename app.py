@@ -5,9 +5,4 @@ import os
 import io
 
 
-while True:
-    try:
-        file = st.file_uploader("Select an excel File", accept_multiple_files=False)
-        break
-    except ValueError:
-        print(" ")
+file = st.file_uploader("Select an excel File", accept_multiple_files=False)
