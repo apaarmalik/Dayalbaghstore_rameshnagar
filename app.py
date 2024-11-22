@@ -4,7 +4,7 @@ from PIL import Image
 import os
 
 # Title
-
+st.image("./pullover1.png", caption="Pullover Image")
 
 
 # Set the desired working directory
