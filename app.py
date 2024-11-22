@@ -1,6 +1,13 @@
 import streamlit as st
 import pandas as pd
 from PIL import Image
+import os
+
+# Set the desired working directory
+custom_dir = "G:/Malik clothing & accessories"
+
+os.chdir(custom_dir)
+st.success(f"Working directory changed to: {os.getcwd()}")
 
 st.write("hello")
 
