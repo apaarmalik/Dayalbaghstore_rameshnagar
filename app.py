@@ -8,7 +8,7 @@ import os
 
 
 # Set the desired working directory
-st.image(r'G//pullover1.png', caption="Sample Image")
+st.image(r'G/pullover1.png', caption="Sample Image")
 
 
 
