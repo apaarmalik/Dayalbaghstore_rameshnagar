@@ -6,7 +6,7 @@ import glob
 
 # Title
 
-img_files=glob.glob("G://Malik clothing & accessories//*//*.png")
+img_files=glob.glob("G://Malik clothing & accessories//*//*.PNG")
 st.write(len(img_files))
 
 
