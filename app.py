@@ -9,7 +9,7 @@ from streamlit_sortables import sort_items
 
 img_files=glob.glob("newsubfolder./*.png")
 sorted_images=sort_items(img_files)
-for imgs in img_files:
+for imgs in sorted_images:
   st.image(imgs, caption = imgs)
 
 
