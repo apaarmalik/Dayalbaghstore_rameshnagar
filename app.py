@@ -7,7 +7,8 @@ import glob
 # Title
 
 img_files=glob.glob("newsubfolder./*.png")
-for imgs in img_files:
+sorted_list=img_files.sort()
+for imgs in sorted_list:
   st.write(imgs)
 
 
