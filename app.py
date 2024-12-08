@@ -8,7 +8,7 @@ import glob
 
 img_files=glob.glob("newsubfolder./*.png")
 for imgs in img_files:
-  st.image(imgs)
+  st.image(imgs, caption = imgs)
 
 
 
