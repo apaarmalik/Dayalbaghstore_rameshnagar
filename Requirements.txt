@@ -1,3 +1,4 @@
 pandas == 1.5.3
 numpy == 1.23.5
 Image == 9.4.0
+streamlit_sortables
